@@ -1,0 +1,14 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "msys mingw64": {
+            "path": "PATH\\TO\\MSYS2\\msys2_shell.cmd",
+            "args": [
+                "-defterm",
+                "-here",
+                "-no-start",
+                "-mingw64"
+            ]
+        }
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools"
+}
