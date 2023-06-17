@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("img/pacman.webp");
+}
+
+.header {
+    text-align: left;
+    width: 60%;
+    height: 150px;
+    background-color: rgb(82, 133, 82);
+    color: cyan;
+    border-radius: 4px;
+}
+
+.mainBody a {
+    background-color: blue;
+    color: chartreuse;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.mainBody img {
+    max-width: 50%;
+    max-height: 100%;
+}
